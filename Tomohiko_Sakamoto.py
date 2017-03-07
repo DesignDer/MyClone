@@ -1,3 +1,4 @@
+import time
 
 def dow(y,m,d):
     list = [0,3,2,5,0,3,5,1,4,6,2,4]
@@ -10,3 +11,5 @@ if __name__ == '__main__':
     day = input("please input day:")
     print "this day is week"
     print dow(year,month,day)
+
+time.sleep(100)
